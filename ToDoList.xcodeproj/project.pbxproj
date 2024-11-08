@@ -24,25 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7419D4202CD857BB0011C94A /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7419D4302CD857BE0011C94A /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7419D43A2CD857BE0011C94A /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7419D46C2CDDAFDC0011C94A /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7419D46D2CDDAFDC0011C94A /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7419D46E2CDDAFDC0011C94A /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7419D4222CD857BB0011C94A /* ToDoList */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ToDoList;
-			sourceTree = "<group>";
-		};
-		7419D4332CD857BE0011C94A /* ToDoListTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDoListTests;
-			sourceTree = "<group>";
-		};
-		7419D43D2CD857BE0011C94A /* ToDoListUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDoListUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,20 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				7419D4222CD857BB0011C94A /* ToDoList */,
-				7419D4332CD857BE0011C94A /* ToDoListTests */,
-				7419D43D2CD857BE0011C94A /* ToDoListUITests */,
-				7419D4212CD857BB0011C94A /* Products */,
+				7419D46C2CDDAFDC0011C94A /* ToDoList.app */,
+				7419D46D2CDDAFDC0011C94A /* ToDoListTests.xctest */,
+				7419D46E2CDDAFDC0011C94A /* ToDoListUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		7419D4212CD857BB0011C94A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7419D4202CD857BB0011C94A /* ToDoList.app */,
-				7419D4302CD857BE0011C94A /* ToDoListTests.xctest */,
-				7419D43A2CD857BE0011C94A /* ToDoListUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,7 +94,7 @@
 			packageProductDependencies = (
 			);
 			productName = ToDoList;
-			productReference = 7419D4202CD857BB0011C94A /* ToDoList.app */;
+			productReference = 7419D46C2CDDAFDC0011C94A /* ToDoList.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7419D42F2CD857BE0011C94A /* ToDoListTests */ = {
@@ -130,14 +110,11 @@
 			dependencies = (
 				7419D4322CD857BE0011C94A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				7419D4332CD857BE0011C94A /* ToDoListTests */,
-			);
 			name = ToDoListTests;
 			packageProductDependencies = (
 			);
 			productName = ToDoListTests;
-			productReference = 7419D4302CD857BE0011C94A /* ToDoListTests.xctest */;
+			productReference = 7419D46D2CDDAFDC0011C94A /* ToDoListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		7419D4392CD857BE0011C94A /* ToDoListUITests */ = {
@@ -153,14 +130,11 @@
 			dependencies = (
 				7419D43C2CD857BE0011C94A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				7419D43D2CD857BE0011C94A /* ToDoListUITests */,
-			);
 			name = ToDoListUITests;
 			packageProductDependencies = (
 			);
 			productName = ToDoListUITests;
-			productReference = 7419D43A2CD857BE0011C94A /* ToDoListUITests.xctest */;
+			productReference = 7419D46E2CDDAFDC0011C94A /* ToDoListUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +170,7 @@
 			mainGroup = 7419D4172CD857BB0011C94A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 7419D4212CD857BB0011C94A /* Products */;
+			productRefGroup = 7419D4172CD857BB0011C94A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
