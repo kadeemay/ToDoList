@@ -23,11 +23,15 @@ struct ToDoListApp: App {
     //variables for what the ToDo item holds
     var subject: String  // the task itself
     var isDone: Bool  //completion status
+    var dueDate: Date? //add a data
+    var notes: String //notes section
     
     //initailize task
-    init(subject: String, isDone: Bool){
+    init(subject: String, isDone: Bool, dueDate: Date? = nil, notes: String = ""){
         self.subject = subject
         self.isDone = isDone
+        self.dueDate = dueDate
+        self.notes = notes
     }
 }
 
